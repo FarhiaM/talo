@@ -34,10 +34,11 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
 }
 
 img{
-  height: 300px;
+  height: 150px;
   width: 300px;
 }
 
@@ -51,6 +52,7 @@ img{
 }
 
 button {
+  margin: 20px;
   height: 60px;
   width: 150px;
   background: #D1D4DE;
@@ -71,15 +73,21 @@ button:hover, button:focus{
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+ .advice{
+     margin-top: 200px;
+ }
  img{
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 400px;
 }
 }
 @media (min-width: 1024px) {
+  .advice{
+     margin-top: 200px;
+ }
  img{
-  height: 700px;
-  width: 700px;
+  height: auto;
+  width: auto;
 }
 }
 

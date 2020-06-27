@@ -20,7 +20,6 @@ html, body{
   background: #92CBB9;
   margin:0; 
   font-family: Arial;
-  height:100%;
 }
 
 </style>
